@@ -1151,6 +1151,14 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@formspree/react@^2.2.4":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.4.1.tgz#c6ee262f63443006fc43902fd08ec1a43bfb51c3"
+  integrity sha512-ZP3oZ7HIMf6KK2sbz4H5XLNXjXBJotI9nveSiTX68Uc1eGzWjBKQqp2qAFlOSjmvgoYMkjJ7NtVD14s49ZrBow==
+  dependencies:
+    "@stripe/react-stripe-js" "^1.7.1"
+    "@stripe/stripe-js" "^1.35.0"
+
 "@gatsbyjs/reach-router@^1.3.6":
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/reach-router/-/reach-router-1.3.6.tgz#4e8225836959be247890b66f21a3198a0589e34d"
@@ -1749,6 +1757,18 @@
   dependencies:
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
+
+"@stripe/react-stripe-js@^1.7.1":
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/@stripe/react-stripe-js/-/react-stripe-js-1.14.2.tgz#4030f1723b4c58003bfbe38189129955f6fff764"
+  integrity sha512-8dGBdSFldq6dyiYgv3r4tOwS5PGAO/446hodegSKlmWg7NkAl0McopszXJd11A9otGi47v5OzCsljyfHJgnLhw==
+  dependencies:
+    prop-types "^15.7.2"
+
+"@stripe/stripe-js@^1.35.0":
+  version "1.44.1"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.44.1.tgz#376fdbed2b394c84deaa2041b8029b97e7eab3a7"
+  integrity sha512-DKj3U6tS+sCNsSXsoZbOl5gDrAVD3cAZ9QCiVSykLC3iJo085kkmw/3BAACRH54Bq2bN34yySuH6G1SLh2xHXA==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -7057,9 +7077,9 @@ loader-utils@2.0.0, loader-utils@^2.0.0:
     json5 "^2.1.2"
 
 loader-utils@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.4.0.tgz#c579b5e34cb34b1a74edc6c1fb36bfa371d5a613"
-  integrity sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.4.2.tgz#29a957f3a63973883eb684f10ffd3d151fec01a3"
+  integrity sha512-I5d00Pd/jwMD2QCduo657+YM/6L3KZu++pmX9VFncxaxvHcru9jx1lBaFft+r4Mt2jK0Yhp41XlRAihzPxHNCg==
   dependencies:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
@@ -7612,10 +7632,15 @@ minimatch@3.0.4, minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.1.0, minimist@^1.2.0, minimist@^1.2.3, minimist@^1.2.5:
+minimist@^1.1.0, minimist@^1.2.3, minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+
+minimist@^1.2.0:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 mitt@^1.2.0:
   version "1.2.0"

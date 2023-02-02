@@ -6,7 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@formspree/react": "^2.2.4",
-    "gatsby": "^3.13.1",
+    "gatsby": "^3.15.0",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-manifest": "^3.13.0",
     "gatsby-plugin-offline": "^4.13.0",
